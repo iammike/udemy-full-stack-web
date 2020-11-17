@@ -1,0 +1,182 @@
+/* Color palette https://colorhunt.co/palette/163620 */
+/***** TAG SELECTORS *****/
+a {
+  color: #151F1F;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e5dfdf;
+}
+
+body {
+  background-color: #e5dfdf;
+  color: #151F1F;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 1.7em;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Homemade Apple', cursive;
+  font-size: 4rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+hr {
+  border-color: #1d4d4f;
+  border-style: dotted none none;
+  border-width: thick;
+  clear: both;
+  margin: 50px auto;
+  position: relative;
+  width: 56%;
+}
+
+p {
+  line-height: 2;
+}
+
+/***** CLASS SELECTORS *****/
+.block {
+  display: block;
+}
+
+.bottom {
+  background-color: #1d4d4f;
+  font-size: 1.25rem;
+}
+
+.bottom-cloud {
+  bottom: 60px;
+  position: relative;
+  right: 200px;
+}
+
+.container {
+  border: 0;
+  padding: 20px;
+}
+
+.centered {
+  margin: auto;
+  text-align: center;
+}
+
+.circular {
+  border-radius: 50%;
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  width: 200px;
+}
+
+.circular img {
+  height: auto;
+  left: 50%;
+  min-height: 100%;
+  min-width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+}
+
+.contact {
+  text-align: center;
+}
+
+.copyright {
+  color: #e5dfdf;
+  font-size: .75rem;
+  position: relative;
+  top: 20px;
+}
+
+.div-mountain {
+  height: 300px;
+  position: relative;
+}
+
+.div-mountain img {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+}
+
+.floating-left-img {
+  float: left;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+.floating-right-img {
+  float: right;
+  margin-left: 20px;
+  vertical-align: middle;
+}
+
+.inline {
+  display: inline;
+}
+
+.middle {
+  background-color: #6ba8a9;
+}
+
+.round {
+  border-radius: 100%;
+}
+
+.profile {
+  text-align: center;
+}
+
+.section {
+  margin: auto;
+  width: 75%;
+}
+
+.skills {
+  margin: auto;
+  width: 75%;
+}
+
+.skill-row {
+  text-align: left;
+}
+
+.subheading {
+  bottom: 130px;
+  color: #1d4d4f;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  position: relative;
+}
+
+.title {
+  color: #1d4d4f;
+  font-family: 'Homemade Apple', cursive;
+  font-size: 10rem;
+  margin: 50px auto 0 auto;
+}
+
+.top {
+  background-color: #357376;
+  padding-bottom: 0;
+}
+
+.top-cloud {
+  left: 200px;
+  position: relative;
+}
+
+.upside-down {
+  transform: scaleY(-1);
+}
